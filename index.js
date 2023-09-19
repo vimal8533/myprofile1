@@ -50,7 +50,7 @@
       tech_stack : 'REACT | JAVASCRIPT | HTML | CSS',
       git_hub_link : 'https://github.com/vimal8533/react_blog_project',
       live_link : 'https://reactblogprojects.netlify.app/',
-      thumbnail :'/images/react_blog.png'
+      thumbnail :'./images/react_blog.png'
   },
     {
       title : 'Live Weather',
@@ -58,7 +58,7 @@
       tech_stack : 'REACT | JAVASCRIPT | HTML | CSS',
       git_hub_link : 'https://github.com/vimal8533/weather',
       live_link : 'https://live-weather-project.netlify.app',
-      thumbnail :'/images/weather_pic.png'
+      thumbnail :'./images/weather_pic.png'
   },
   {
     title : 'Student Database',
@@ -66,7 +66,7 @@
     tech_stack : 'REACT | JAVASCRIPT | HTML | CSS',
     git_hub_link : 'https://github.com/vimal8533/react_handson_six',
     live_link : 'https://reacthandsonsixx.netlify.app/student',
-    thumbnail :'/images/studentblog.png'
+    thumbnail :'./images/studentblog.png'
 },
     {
         title : 'Todo list Website',
