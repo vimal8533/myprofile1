@@ -43,7 +43,38 @@
   });
   
   const MY_PROJECTS = [
-    
+    {
+      title : 'Moolstone',
+      project_desc : 'Designed and developed the modern digital platform for Moolstone, an IT services and business consulting agency specializing in cutting-edge digital transformation, AI-driven automation, and scalable e-commerce solutions. Built with a responsive, high-performance architecture, clean UI/UX design, interactive animations, and optimized SEO structure to empower startups and global enterprises.',
+      tech_stack : 'NEXT.JS | REACT | TAILWIND CSS | JAVASCRIPT',
+      git_hub_link : 'https://github.com/vimal8533',
+      live_link : 'https://www.moolstone.com',
+      thumbnail :'./images/moolstone.png'
+    },
+    {
+      title : 'Fleet Manager',
+      project_desc : 'Engineered an Autonomous Ground Vehicle (AGV) Command Center web application for real-time fleet telemetry and mission dispatch. Features live warehouse topology floor mapping with dynamic Dijkstra shortest-path route calculation, automated battery & charging monitoring, bulk AGV deployment, and instant telemetry synchronization over REST APIs.',
+      tech_stack : 'REACT | NODE.JS | EXPRESS | REST API | TAILWIND CSS',
+      git_hub_link : 'https://github.com/vimal8533',
+      live_link : 'https://fleet-manger-3.onrender.com/',
+      thumbnail :'./images/fleet_manager.png'
+    },
+    {
+      title : 'Saatvik Buildhomes',
+      project_desc : 'Designed and developed the premier real estate and construction web platform for Saatvik Buildhomes Pvt Ltd, highlighting their flagship residential project J.K. Enclave in Patna. Built an interactive home loan EMI calculator, modern apartment showcase, RERA compliance features, and instant visit booking flow. Built with a responsive Next.js and Tailwind CSS architecture for seamless performance across all devices.',
+      tech_stack : 'NEXT.JS | REACT | TAILWIND CSS | JAVASCRIPT',
+      git_hub_link : 'https://github.com/vimal8533',
+      live_link : 'https://saatvik-beta.vercel.app/',
+      thumbnail :'./images/saatvik.png'
+    },
+    {
+      title : 'Navbharat 24x7',
+      project_desc : 'Architected and developed a full-stack bilingual (Hindi & English) digital news portal using the MERN stack and Redux Toolkit. Features 11 dynamic categories, real-time breaking news ticker, administrative CMS dashboard for publishing articles, secure JWT authentication, and high-performance MongoDB database storage.',
+      tech_stack : 'MONGODB | EXPRESS | REACT | NODE.JS | REDUX',
+      git_hub_link : 'https://github.com/vimal8533',
+      live_link : 'https://newsapp-bj4d.onrender.com/',
+      thumbnail :'./images/navbharat_news.png'
+    },
     {
       title : 'React Blog',
       project_desc : 'Designed and developed a dynamic and interactive blog website using React.js and React Router, providing users with real-time access to articles and posts.Implemented a modern and engaging user interface using React.js, allowing seamless navigation and interaction for blog visitors.Integrated React Router to enable smooth page transitions, facilitating easy access to various blog sections and individual articles.Developed a structured and user-friendly layout, optimizing the reading experience for visitors and enhancing content accessibility.Integrated state management techniques to handle blog data and user interactions efficiently, ensuring a responsive and reactive UI.',
@@ -92,14 +123,6 @@
         live_link : 'https://vimal8533.github.io/myownsimpleproject/project3/index.html',
         thumbnail : './images/3rdproject.png'
     },
-    {
-        title : 'Jio Mart Website',
-        project_desc : "•I designed and implemented a visually appealing and intuitive UI layout, ensuring a seamless user experience.",
-        tech_stack : 'HTML |  CSS',
-        git_hub_link : 'https://github.com/vimal8533/miniproject/tree/main/Jiomart',
-        live_link : 'https://vimal8533.github.io/miniproject/Jiomart/index.html',
-        thumbnail : './images/4thproject.png'
-    },
     // {
     //     title : 'Meal Finder',
     //     project_desc : "A meal plan generator app that helps the user to find meal and see the ingredients",
@@ -123,7 +146,7 @@
     live_link,
   }) => {
     innerHtml += `
-    <div data-aos="fade-up"data-aos-anchor-placement="bottom-bottom" class="sc-iqHYmW hMGSRy aos-init aos-animate">
+    <div data-aos="fade-up" class="sc-iqHYmW hMGSRy">
     <div class="project_thumbnail">
       <img border="4px solid white" src=${thumbnail} alt="">
     </div>

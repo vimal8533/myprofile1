@@ -120,24 +120,23 @@
       <div class="client__logos">
         <!-- Add logos of the clients or companies you'have worked with. -->
         <div>
-          <img data-aos="zoom-in-down" src="https://i.postimg.cc/66j7VLFr/react-removebg-preview-1.png" class="client__logo" alt="Company 1" />
+          <img data-aos="zoom-in-down" src="./images/react.svg" class="client__logo" alt="ReactJS" />
           <p>ReactJS</p>
         </div>
         <div>
-          <img data-aos="zoom-in-down" src="https://www.freepnglogos.com/uploads/javascript-png/transparent-logo-javascript-7.png" class="client__logo" alt="Company 1" />
+          <img data-aos="zoom-in-down" src="./images/javascript.svg" class="client__logo" alt="JavaScript" />
           <p>JavaScript</p>
         </div>
         <div>
-          <img data-aos="zoom-in-down" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" class="client__logo" alt="Company 2" />
+          <img data-aos="zoom-in-down" src="./images/html.svg" class="client__logo" alt="HTML5" />
           <p>HTML</p>
         </div>
         <div>
-          <img data-aos="zoom-in-down" data-aos="zoom-in-up" src="https://i.postimg.cc/15rjYXcr/css-removebg-preview.png" class="client__logo" alt="Company 3" />
+          <img data-aos="zoom-in-down" src="./images/css.svg" class="client__logo" alt="CSS3" />
           <p>CSS</p>
         </div>
-       
         <div>
-          <img data-aos="zoom-in-down" src="https://i.postimg.cc/CLrQVtXR/node-removebg-preview.png" class="client__logo" alt="Company 3" />
+          <img data-aos="zoom-in-down" src="./images/nodejs.svg" class="client__logo" alt="NodeJS" />
           <p>NodeJS</p>
         </div>
        
@@ -189,7 +188,12 @@
   <script src="./index.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      once: true,
+      duration: 600,
+      easing: 'ease-out-cubic',
+      offset: 60
+    });
   </script>
 </body>
 
